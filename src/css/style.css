@@ -6,6 +6,9 @@ header {
   height: 50px;
   background: #212121; }
 
+.container {
+  position: relative; }
+
 nav {
   height: 50px;
   position: fixed;
@@ -196,6 +199,8 @@ nav {
   min-height: 864px;
   padding: 48px 0 79px 0;
   background: url("../img/mobile_bg.png") center center/cover no-repeat; }
+  .mobail .row {
+    margin-top: 30px; }
   .mobail .laibel {
     display: block;
     margin: 0 auto;
@@ -225,7 +230,7 @@ nav {
   .mobail_item {
     display: block;
     position: relative;
-    margin-top: 30px;
+    margin-bottom: 19px;
     width: 320px;
     height: 280px; }
     .mobail_item_1 {
@@ -263,10 +268,63 @@ nav {
               align-items: center;
       position: absolute;
       bottom: 29px;
-      margin-left: 144px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
       width: 29px;
       height: 29px;
       background: #000000;
-      border-radius: 100%; }
+      border-radius: 100%;
+      cursor: pointer; }
+
+.choice {
+  position: relative;
+  height: 510px;
+  padding-top: 57px;
+  background: #070716; }
+  .choice_laibel {
+    display: block;
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background: #FFFFFF;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    line-height: 28px;
+    ext-transform: uppercase;
+    color: #070716; }
+  .choice_heder {
+    margin-top: 26px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .choice_subheder {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF; }
+  .choice_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 54px; }
+
+.choice2 {
+  height: 384px;
+  padding: 189px 0 143px 0;
+  background: url("../img/substrate.png") center center/cover no-repeat; }
+  .choice2_descr {
+    display: block;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #222222;
+    width: 327px; }
 
 /*# sourceMappingURL=style.css.map */
